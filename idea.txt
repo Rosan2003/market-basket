@@ -1,0 +1,19 @@
+Backend:
+
+Processes the CSV
+
+Groups items by transaction
+
+Categorizes items
+
+Runs Apriori algorithm (category-wise or global)
+
+Stores results in PostgreSQL
+
+Frontend:
+
+Displays top itemsets and rules
+
+Filters by category
+
+Suggests products based on cart contents
